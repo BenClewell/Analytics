@@ -1,9 +1,6 @@
 # BIN ANALYTICS: An Engaging Visualizer for WMS Sample Binning
-
-![Graph Generation Demonstration](Resources/Demonstration Assets/2021-01-03 22-00-38.gif)
-
-This program provides a polished and interactive audiovisual experience for abstracted data points-- providing entertainment and clarity for the frontend user and giving them the tools to execute important leadership decisions involving categorical inventory bloat, disposal, and consolidation.
-
+This program provides a polished and interactive audiovisual experience for abstracted data points-- providing clarity for the frontend user and giving them the tools to execute  leadership decisions involving categorical inventory bloat, disposal, and consolidation.
+![Graph Generation Demonstration](Resources/demonstration_assets/graphgen_preview_fast.gif)
 Conceptualized for official implementation in a qualilty laboratory to manage sample inventory, I wrote this public demonstration project from the ground-up to ensure complete abstraction of all company-sensitive information, technology, and structure.
 # Role and Purpose: 
 Without a proper visualization tool, there is no preexisting framework that can natively provide large-batch logistical information for more than 50,000 annual data points through a proprietary WMS program. With clear metrics on how congested a binning parameter has become in the laboratory, company leadership can set thresholds that trigger sample disposals and consolidations.
