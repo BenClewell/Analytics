@@ -1,6 +1,8 @@
 # BIN ANALYTICS: An Engaging Visualizer for WMS Sample Binning
 This program provides a polished and interactive audiovisual experience for abstracted data points-- providing clarity for the frontend user and giving them the tools to execute  leadership decisions involving categorical inventory bloat, disposal, and consolidation.
+
 ![Graph Generation Demonstration](Resources/demonstration_assets/graphgen_preview_fast.gif)
+
 Conceptualized for official implementation in a qualilty laboratory to manage sample inventory, I wrote this public demonstration project from the ground-up to ensure complete abstraction of all company-sensitive information, technology, and structure.
 # Role and Purpose: 
 Without a proper visualization tool, there is no preexisting framework that can natively provide large-batch logistical information for more than 50,000 annual data points through a proprietary WMS program. With clear metrics on how congested a binning parameter has become in the laboratory, company leadership can set thresholds that trigger sample disposals and consolidations.
@@ -40,8 +42,9 @@ This program performs operations on a locally-hosted SQLite3 database with five 
 3) **Sample Check-In Information**: Records traceable user information to provide accounatability for placement of a sample in a bin.
 4) **Disposal**: Either a null or date-based value that evaulates whether a sample is actively needed in the laboratory.
 5) **Disposal Identification**: Records traceable user information to provide accountability for the removal of physical laboratory inventory.
-  
+
 # Alien Worlds: The Mock Data
+![Three Generated Graphs](Resources/demonstration_assets/three_graphs.jpg)
 For our theoretical inventory, imagine yourself on a spaceship that's in charge of holding five unique species of alien. Each year, tens of thousands of alien tissue samples are held on the ship, in one of 250 holding bins. Bins closer to 0 are held in colder conditions, and bins closer to 250 are held in hotter conditions. Different alien species must have their tissue differently distributed in their species' bins according to their curation needs.
 
 ALPHA:
