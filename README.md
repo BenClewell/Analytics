@@ -1,6 +1,6 @@
 # BIN ANALYTICS: An Engaging Visualizer for WMS Sample Binning
 
-![](Resources/Demonstration Assets/2021-01-03 22-00-38.gif)
+![Graph Generation Demonstration](Resources/Demonstration Assets/2021-01-03 22-00-38.gif)
 
 This program provides a polished and interactive audiovisual experience for abstracted data points-- providing entertainment and clarity for the frontend user and giving them the tools to execute important leadership decisions involving categorical inventory bloat, disposal, and consolidation.
 
