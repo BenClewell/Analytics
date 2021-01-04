@@ -38,7 +38,7 @@ class Operations:
         self.filter_in_use = self.filter_TYPE["box"].nunique()
 
     def create_graph(self, barcolor, linecolor):
-        #play a randomized sound when generating
+        # play a randomized sound when generating
         if self.keyword != "":
             # new function, perform value counts on filter_TYPE
             # establishes the value counts
@@ -87,10 +87,10 @@ class Operations:
                         hovermode="x",
                         template="plotly_dark",
                         title_text=(
-                            self.keyword.title() + ": Samples per Box"
+                            self.keyword.title() + ": Samples per Bin"
                         ),
                         title_x=0.1,
-                        xaxis_title=(self.keyword.title() + " Boxes"),
+                        xaxis_title=(self.keyword.title() + " Bins"),
                         yaxis_title="Number of Samples",
                         font=dict(family="Android 101", size=12),
                     ),
