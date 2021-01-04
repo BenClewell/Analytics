@@ -3,7 +3,7 @@ This program provides a polished and interactive audiovisual experience for abst
 
 ![Graph Generation Demonstration](Resources/demonstration_assets/graphgen_preview_fast.gif)
 
-[![Demo Video Link](Resources/demonstration_assets/demo_video_link.gif)](https://www.youtube.com/watch?v=ctQW5D8kRcU)
+[![Demo Video Link](Resources/demonstration_assets/demo_video_link_slow.gif)](https://www.youtube.com/watch?v=ctQW5D8kRcU)
 Conceptualized for official implementation in a qualilty laboratory to manage sample inventory, I wrote this public demonstration project from the ground-up to ensure complete abstraction of all company-sensitive information, technology, and structure.
 
 # Role and Purpose: 
