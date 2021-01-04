@@ -1,5 +1,7 @@
 # BIN ANALYTICS: An Engaging Visualizer for WMS Sample Binning
+
 ![](Resources/Demonstration Assets/2021-01-03 22-00-38.gif)
+
 This program provides a polished and interactive audiovisual experience for abstracted data points-- providing entertainment and clarity for the frontend user and giving them the tools to execute important leadership decisions involving categorical inventory bloat, disposal, and consolidation.
 
 Conceptualized for official implementation in a qualilty laboratory to manage sample inventory, I wrote this public demonstration project from the ground-up to ensure complete abstraction of all company-sensitive information, technology, and structure.
