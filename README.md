@@ -56,11 +56,11 @@ ALPHA:
 * Alpha tissue samples do not have hard temperature limits regarding their storage, although colder temperatures are preferred. When the average number of alpha tissue samples per bin exceeds 20, it is important to spread out the samples across the available storage range, in a downward linear manner.
 
 BETA:
-* These tissues samples are sensitive to mid-warm temperatures, and must be stored from cold-to-mid temperatures, and in hot temperatures-- but storing these alien tissues in the upper-middle of the bin range is never reccomended. 
-  
+* These tissues samples are sensitive to mid-warm temperatures, and must be stored from cold-to-mid temperatures, and in hot temperatures-- but storing these alien tissues in the upper-middle of the bin range is never reccomended.
+
 GAMMA:
 * These samples should be stored in a bell distribution-- with the majority of tissue samples in the middle of the bin range.
-  
+
 EPSILON:
 * An alien species known for their hot homeworld, it is never reccomended to store epsilon tissue at a colder temperature. Therefore, one should favor the bins on the higher limit.
 
