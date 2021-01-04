@@ -9,6 +9,8 @@ Without a proper visualization tool, there is no preexisting framework that can 
 * Additionally, the visualization mode allows an easy way for a front-end technician to view an easy statistical representation of a large physical inventory, and identify anomalies in the database.
 (*Does a bin have an unusally-high number of samples? Are there outlying points that signify that a sample has been abandoned/forgotten? Are samples being stored according to categorical binning guidelines?*) 
 
+[![Alt text](Resources/demonstration_assets/video_link_twoline.JPG)](https://www.youtube.com/watch?v=ctQW5D8kRcU)
+
 # Technologies
 Built with **Python 3.8.1** 
 
