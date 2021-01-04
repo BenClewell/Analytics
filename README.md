@@ -1,12 +1,14 @@
 # BIN ANALYTICS: An Engaging Visualizer for WMS Sample Binning
-This program provides a polished and interactive audiovisual experience for abstracted data points-- providing clarity for the frontend user and giving them the tools to execute  leadership decisions involving categorical inventory bloat, disposal, and consolidation.
 
 ![Graph Generation Demonstration](Resources/demonstration_assets/graphgen_preview_fast.gif)
 
-[![Demo Video Link](Resources/demonstration_assets/demo_video_link_slow.gif)](https://www.youtube.com/watch?v=ctQW5D8kRcU)
-Conceptualized for official implementation in a qualilty laboratory to manage sample inventory, I wrote this public demonstration project from the ground-up to ensure complete abstraction of all company-sensitive information, technology, and structure.
 
-# Role and Purpose: 
+#
+[![Demo Video Link](Resources/demonstration_assets/demo_video_link_slow.gif)](https://www.youtube.com/watch?v=ctQW5D8kRcU)
+#
+This program provides a polished and interactive audiovisual experience for abstracted data points-- providing clarity for the frontend user and giving them the tools to execute  leadership decisions involving categorical inventory bloat, disposal, and consolidation. Conceptualized for official implementation in a qualilty laboratory to manage sample inventory, this public demonstration project has been designed from the ground-up to ensure complete abstraction of all company-sensitive information, technology, and structure.
+
+# Role and Purpose:
 Without a proper visualization tool, there is no preexisting framework that can natively provide large-batch logistical information for more than 50,000 annual data points through a proprietary WMS program. With clear metrics on how congested a binning parameter has become in the laboratory, company leadership can set thresholds that trigger sample disposals and consolidations.
 * Additionally, the visualization mode allows an easy way for a front-end technician to view an easy statistical representation of a large physical inventory, and identify anomalies in the database.
 (*Does a bin have an unusally-high number of samples? Are there outlying points that signify that a sample has been abandoned/forgotten? Are samples being stored according to categorical binning guidelines?*) 
