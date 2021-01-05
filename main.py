@@ -12,7 +12,7 @@ from functools import partial
 
 # pass args to button presses in QT, avoid having to make more methods
 
-import UI_analytics as UI_homescreen
+from Resources.ui_files import UI_analytics as UI_homescreen
 
 # import frontend_help_ui as UI_help
 # import frontend_about_ui as UI_about
@@ -21,7 +21,7 @@ import UI_analytics as UI_homescreen
 LIBRARIES: PyQt5 (PySide2)
 Import the GUI that will display when the program is launched
 """
-import backend_analytics as dbop
+from Resources.effects_and_calcs import backend_analytics as dbop
 
 """
 LIBRARIES: pandas, SQlite3, numpy, plotly
@@ -34,7 +34,7 @@ method arguments to customize chart titles and category-specific differences.
 """
 
 
-import frontend_effects as sfx
+from Resources.effects_and_calcs import frontend_effects as sfx
 
 """
 LIBRARIES: pygame (audio mixer)
@@ -257,7 +257,7 @@ class HomeScreen(UI_homescreen.Ui_Dialog, QtWidgets.QMainWindow):
         self.label_hide_9.setVisible(False)
         QtTest.QTest.qWait(100)
         self.label_hide_1.setVisible(False)
-        #self.label_hide_2.setVisible(False)
+        # self.label_hide_2.setVisible(False)
 
     def anim_loading(self):
         """provide audio-visual feedback when the user selects a

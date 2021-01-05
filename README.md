@@ -11,11 +11,11 @@ This program provides a polished and interactive audiovisual experience for abst
 # Role and Purpose:
 Without a proper visualization tool, there is no preexisting framework that can natively provide large-batch logistical information for more than 50,000 annual data points through a proprietary WMS program. With clear metrics on how congested a binning parameter has become in the laboratory, company leadership can set thresholds that trigger sample disposals and consolidations.
 * Additionally, the visualization mode allows an easy way for a front-end technician to view an easy statistical representation of a large physical inventory, and identify anomalies in the database.
-(*Does a bin have an unusally-high number of samples? Are there outlying points that signify that a sample has been abandoned/forgotten? Are samples being stored according to categorical binning guidelines?*) 
+(*Does a bin have an unusally-high number of samples? Are there outlying points that signify that a sample has been abandoned/forgotten? Are samples being stored according to categorical binning guidelines?*)
 
 
 # Technologies
-Built with **Python 3.8.1** 
+Built with **Python 3.8.1**
 
 **Libaries to Install** (*Included in requirements.txt*)
 * pandas == 1.0.4
