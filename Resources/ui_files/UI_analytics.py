@@ -17,7 +17,7 @@ class Ui_Dialog(object):
         Dialog.setStyleSheet("background-color: rgb(99, 99, 99);")
         self.label = QtWidgets.QLabel(Dialog)
         self.label.setGeometry(QtCore.QRect(-510, -60, 1600, 191))
-        #changed geometry due to lacking right-side length
+        # changed geometry due to lacking right-side length
         font = QtGui.QFont()
         font.setFamily("Android 101")
         font.setPointSize(48)
@@ -34,8 +34,9 @@ class Ui_Dialog(object):
         font.setFamily("Android 101")
         font.setPointSize(20)
         self.pushButton_alpha.setFont(font)
-        self.pushButton_alpha.setStyleSheet("background-color: rgb(0, 0, 0);\n"
-"color: rgb(255, 255, 255);")
+        self.pushButton_alpha.setStyleSheet(
+            "background-color: rgb(0, 0, 0);\n" "color: rgb(255, 255, 255);"
+        )
         self.pushButton_alpha.setObjectName("pushButton_alpha")
         self.pushButton_beta = QtWidgets.QPushButton(Dialog)
         self.pushButton_beta.setGeometry(QtCore.QRect(160, 140, 141, 41))
@@ -43,8 +44,9 @@ class Ui_Dialog(object):
         font.setFamily("Android 101")
         font.setPointSize(20)
         self.pushButton_beta.setFont(font)
-        self.pushButton_beta.setStyleSheet("background-color: rgb(0, 0, 0);\n"
-"color: rgb(255, 255, 255);")
+        self.pushButton_beta.setStyleSheet(
+            "background-color: rgb(0, 0, 0);\n" "color: rgb(255, 255, 255);"
+        )
         self.pushButton_beta.setObjectName("pushButton_beta")
         self.pushButton_zeta = QtWidgets.QPushButton(Dialog)
         self.pushButton_zeta.setGeometry(QtCore.QRect(760, 140, 151, 81))
@@ -52,27 +54,38 @@ class Ui_Dialog(object):
         font.setFamily("Android 101")
         font.setPointSize(20)
         self.pushButton_zeta.setFont(font)
-        self.pushButton_zeta.setStyleSheet("background-color: rgb(0, 0, 0);\n"
-"color: rgb(255, 255, 255);")
+        self.pushButton_zeta.setStyleSheet(
+            "background-color: rgb(0, 0, 0);\n" "color: rgb(255, 255, 255);"
+        )
         self.pushButton_zeta.setObjectName("pushButton_zeta")
         self.pushButton_beta_transport = QtWidgets.QPushButton(Dialog)
-        self.pushButton_beta_transport.setGeometry(QtCore.QRect(160, 190, 141, 31))
+        self.pushButton_beta_transport.setGeometry(
+            QtCore.QRect(160, 190, 141, 31)
+        )
         font = QtGui.QFont()
         font.setFamily("Android 101")
         font.setPointSize(9)
         self.pushButton_beta_transport.setFont(font)
-        self.pushButton_beta_transport.setStyleSheet("background-color: rgb(0, 0, 0);\n"
-"color: rgb(255, 255, 255);")
-        self.pushButton_beta_transport.setObjectName("pushButton_beta_transport")
+        self.pushButton_beta_transport.setStyleSheet(
+            "background-color: rgb(0, 0, 0);\n" "color: rgb(255, 255, 255);"
+        )
+        self.pushButton_beta_transport.setObjectName(
+            "pushButton_beta_transport"
+        )
         self.pushButton_alpha_transport = QtWidgets.QPushButton(Dialog)
-        self.pushButton_alpha_transport.setGeometry(QtCore.QRect(10, 190, 141, 31))
+        self.pushButton_alpha_transport.setGeometry(
+            QtCore.QRect(10, 190, 141, 31)
+        )
         font = QtGui.QFont()
         font.setFamily("Android 101")
         font.setPointSize(9)
         self.pushButton_alpha_transport.setFont(font)
-        self.pushButton_alpha_transport.setStyleSheet("background-color: rgb(0, 0, 0);\n"
-"color: rgb(255, 255, 255);")
-        self.pushButton_alpha_transport.setObjectName("pushButton_alpha_transport")
+        self.pushButton_alpha_transport.setStyleSheet(
+            "background-color: rgb(0, 0, 0);\n" "color: rgb(255, 255, 255);"
+        )
+        self.pushButton_alpha_transport.setObjectName(
+            "pushButton_alpha_transport"
+        )
         self.groupBox = QtWidgets.QGroupBox(Dialog)
         self.groupBox.setGeometry(QtCore.QRect(780, 270, 281, 641))
         self.groupBox.setBaseSize(QtCore.QSize(0, 0))
@@ -96,7 +109,9 @@ class Ui_Dialog(object):
         font.setFamily("Android 101")
         font.setPointSize(16)
         self.pushButton_countbox.setFont(font)
-        self.pushButton_countbox.setStyleSheet("background-color: rgb(238, 238, 238);")
+        self.pushButton_countbox.setStyleSheet(
+            "background-color: rgb(238, 238, 238);"
+        )
         self.pushButton_countbox.setObjectName("pushButton_countbox")
         self.label_11 = QtWidgets.QLabel(self.groupBox)
         self.label_11.setGeometry(QtCore.QRect(70, 40, 171, 561))
@@ -122,7 +137,9 @@ class Ui_Dialog(object):
         font.setFamily("Android 101")
         font.setPointSize(28)
         self.label_hide_3.setFont(font)
-        self.label_hide_3.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.label_hide_3.setStyleSheet(
+            "background-color: rgb(255, 255, 255);"
+        )
         self.label_hide_3.setText("")
         self.label_hide_3.setObjectName("label_hide_3")
         self.label_41.raise_()
@@ -135,8 +152,9 @@ class Ui_Dialog(object):
         font.setFamily("Android 101")
         font.setPointSize(12)
         self.pushButton_total.setFont(font)
-        self.pushButton_total.setStyleSheet("background-color: rgb(0, 0, 0);\n"
-"color: rgb(255, 255, 255);")
+        self.pushButton_total.setStyleSheet(
+            "background-color: rgb(0, 0, 0);\n" "color: rgb(255, 255, 255);"
+        )
         self.pushButton_total.setObjectName("pushButton_total")
         self.groupBox_2 = QtWidgets.QGroupBox(Dialog)
         self.groupBox_2.setGeometry(QtCore.QRect(-10, 390, 631, 631))
@@ -192,8 +210,9 @@ class Ui_Dialog(object):
         font.setFamily("Android 101")
         font.setPointSize(28)
         self.label_10.setFont(font)
-        self.label_10.setStyleSheet("background-color: rgb(255, 255, 255);\n"
-"border-radius: 15px")
+        self.label_10.setStyleSheet(
+            "background-color: rgb(255, 255, 255);\n" "border-radius: 15px"
+        )
         self.label_10.setText("")
         self.label_10.setObjectName("label_10")
         self.label_2 = QtWidgets.QLabel(self.groupBox_2)
@@ -333,7 +352,11 @@ class Ui_Dialog(object):
         self.label_17.setStyleSheet("background-color: rgb(255, 255, 255);")
         self.label_17.setFrameShape(QtWidgets.QFrame.Box)
         self.label_17.setLineWidth(0)
-        self.label_17.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
+        self.label_17.setAlignment(
+            QtCore.Qt.AlignLeading
+            | QtCore.Qt.AlignLeft
+            | QtCore.Qt.AlignVCenter
+        )
         self.label_17.setObjectName("label_17")
         self.label_18 = QtWidgets.QLabel(Dialog)
         self.label_18.setGeometry(QtCore.QRect(320, 80, 201, 41))
@@ -353,8 +376,10 @@ class Ui_Dialog(object):
         font.setFamily("Android 101")
         font.setPointSize(28)
         self.label_13.setFont(font)
-        self.label_13.setStyleSheet("background-color: rgb(255, 255, 255);\n"
-"background-color: rgb(0, 0, 0);")
+        self.label_13.setStyleSheet(
+            "background-color: rgb(255, 255, 255);\n"
+            "background-color: rgb(0, 0, 0);"
+        )
         self.label_13.setText("")
         self.label_13.setObjectName("label_13")
         self.pushButton_about = QtWidgets.QPushButton(Dialog)
@@ -363,8 +388,9 @@ class Ui_Dialog(object):
         font.setFamily("Android 101")
         font.setPointSize(12)
         self.pushButton_about.setFont(font)
-        self.pushButton_about.setStyleSheet("background-color: rgb(0, 0, 0);\n"
-"color: rgb(255, 255, 255);")
+        self.pushButton_about.setStyleSheet(
+            "background-color: rgb(0, 0, 0);\n" "color: rgb(255, 255, 255);"
+        )
         self.pushButton_about.setObjectName("pushButton_about")
         self.lcd_active = QtWidgets.QLCDNumber(Dialog)
         self.lcd_active.setGeometry(QtCore.QRect(230, 80, 111, 41))
@@ -374,7 +400,9 @@ class Ui_Dialog(object):
         self.lcd_active.setObjectName("lcd_active")
         self.lcd_disposed = QtWidgets.QLCDNumber(Dialog)
         self.lcd_disposed.setGeometry(QtCore.QRect(480, 80, 111, 41))
-        self.lcd_disposed.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.lcd_disposed.setStyleSheet(
+            "background-color: rgb(255, 255, 255);"
+        )
         self.lcd_disposed.setFrameShape(QtWidgets.QFrame.NoFrame)
         self.lcd_disposed.setProperty("value", 0.0)
         self.lcd_disposed.setObjectName("lcd_disposed")
@@ -384,8 +412,9 @@ class Ui_Dialog(object):
         font.setFamily("Android 101")
         font.setPointSize(20)
         self.pushButton_gamma.setFont(font)
-        self.pushButton_gamma.setStyleSheet("background-color: rgb(0, 0, 0);\n"
-"color: rgb(255, 255, 255);")
+        self.pushButton_gamma.setStyleSheet(
+            "background-color: rgb(0, 0, 0);\n" "color: rgb(255, 255, 255);"
+        )
         self.pushButton_gamma.setObjectName("pushButton_gamma")
         self.label_16 = QtWidgets.QLabel(Dialog)
         self.label_16.setGeometry(QtCore.QRect(650, 400, 20, 561))
@@ -518,8 +547,9 @@ class Ui_Dialog(object):
         font.setFamily("Android 101")
         font.setPointSize(20)
         self.pushButton_epsilon.setFont(font)
-        self.pushButton_epsilon.setStyleSheet("background-color: rgb(0, 0, 0);\n"
-"color: rgb(255, 255, 255);")
+        self.pushButton_epsilon.setStyleSheet(
+            "background-color: rgb(0, 0, 0);\n" "color: rgb(255, 255, 255);"
+        )
         self.pushButton_epsilon.setObjectName("pushButton_epsilon")
         self.label_31 = QtWidgets.QLabel(Dialog)
         self.label_31.setGeometry(QtCore.QRect(915, 140, 21, 81))
@@ -590,8 +620,10 @@ class Ui_Dialog(object):
         font.setFamily("Android 101")
         font.setPointSize(12)
         self.pushButton_about_2.setFont(font)
-        self.pushButton_about_2.setStyleSheet("background-color: rgb(126, 126, 126);\n"
-"color: rgb(255, 255, 255);")
+        self.pushButton_about_2.setStyleSheet(
+            "background-color: rgb(126, 126, 126);\n"
+            "color: rgb(255, 255, 255);"
+        )
         self.pushButton_about_2.setObjectName("pushButton_about_2")
         self.label_40 = QtWidgets.QLabel(Dialog)
         self.label_40.setGeometry(QtCore.QRect(310, 140, 121, 81))
@@ -653,7 +685,9 @@ class Ui_Dialog(object):
         font.setFamily("Android 101")
         font.setPointSize(28)
         self.label_hide_1.setFont(font)
-        self.label_hide_1.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.label_hide_1.setStyleSheet(
+            "background-color: rgb(255, 255, 255);"
+        )
         self.label_hide_1.setText("")
         self.label_hide_1.setObjectName("label_hide_1")
         self.label_hide_8 = QtWidgets.QLabel(Dialog)
@@ -689,7 +723,9 @@ class Ui_Dialog(object):
         font.setPointSize(72)
         self.label_hide_4.setFont(font)
         self.label_hide_4.setLayoutDirection(QtCore.Qt.LeftToRight)
-        self.label_hide_4.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.label_hide_4.setStyleSheet(
+            "background-color: rgb(255, 255, 255);"
+        )
         self.label_hide_4.setFrameShape(QtWidgets.QFrame.Box)
         self.label_hide_4.setLineWidth(0)
         self.label_hide_4.setAlignment(QtCore.Qt.AlignCenter)
@@ -726,8 +762,9 @@ class Ui_Dialog(object):
         font.setFamily("Android 101")
         font.setPointSize(18)
         self.pushButton_begin.setFont(font)
-        self.pushButton_begin.setStyleSheet("background-color: rgb(0, 0, 0);\n"
-"color: rgb(255, 255, 255);")
+        self.pushButton_begin.setStyleSheet(
+            "background-color: rgb(0, 0, 0);\n" "color: rgb(255, 255, 255);"
+        )
         self.pushButton_begin.setObjectName("pushButton_begin")
         self.label_hide_5 = QtWidgets.QLabel(Dialog)
         self.label_hide_5.setGeometry(QtCore.QRect(-290, 600, 1651, 321))
@@ -736,9 +773,11 @@ class Ui_Dialog(object):
         font.setPointSize(48)
         self.label_hide_5.setFont(font)
         self.label_hide_5.setLayoutDirection(QtCore.Qt.LeftToRight)
-        self.label_hide_5.setStyleSheet("color: rgb(255, 255, 255);\n"
-"background-color: rgb(50,50,50)\n"
-"")
+        self.label_hide_5.setStyleSheet(
+            "color: rgb(255, 255, 255);\n"
+            "background-color: rgb(50,50,50)\n"
+            ""
+        )
         self.label_hide_5.setFrameShape(QtWidgets.QFrame.Box)
         self.label_hide_5.setLineWidth(0)
         self.label_hide_5.setAlignment(QtCore.Qt.AlignCenter)
@@ -804,15 +843,20 @@ class Ui_Dialog(object):
 
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
-        Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
+        Dialog.setWindowTitle(_translate("Dialog", "BIN ANALYTICS (DEMO)"))
         self.label.setText(_translate("Dialog", "BIN ANALYTICS"))
         self.pushButton_alpha.setText(_translate("Dialog", "ALPHA"))
         self.pushButton_beta.setText(_translate("Dialog", "BETA"))
         self.pushButton_zeta.setText(_translate("Dialog", "ZETA"))
-        self.pushButton_beta_transport.setText(_translate("Dialog", "TRANSPORT"))
-        self.pushButton_alpha_transport.setText(_translate("Dialog", "TRANSPORT"))
-        self.pushButton_countbox.setText(_translate("Dialog", "ENGAGE\n"
-"VISUALIZATION"))
+        self.pushButton_beta_transport.setText(
+            _translate("Dialog", "TRANSPORT")
+        )
+        self.pushButton_alpha_transport.setText(
+            _translate("Dialog", "TRANSPORT")
+        )
+        self.pushButton_countbox.setText(
+            _translate("Dialog", "ENGAGE\n" "VISUALIZATION")
+        )
         self.pushButton_total.setText(_translate("Dialog", "TOTAL"))
         self.label_7.setText(_translate("Dialog", "BINS INACTIVE:"))
         self.label_9.setText(_translate("Dialog", " PER BIN:"))
@@ -823,15 +867,18 @@ class Ui_Dialog(object):
         self.informatic_title.setText(_translate("Dialog", "SAMPLE"))
         self.label_17.setText(_translate("Dialog", "ACTIVE SAMPLES:"))
         self.label_18.setText(_translate("Dialog", "DISPOSED:"))
-        self.pushButton_about.setText(_translate("Dialog", "ABOUT THIS PROGRAM\n"
-"//////////\n"
-"V 1.0.0 DEMO EDITION"))
+        self.pushButton_about.setText(
+            _translate(
+                "Dialog",
+                "ABOUT THIS PROGRAM\n" "//////////\n" "V 1.0.0 DEMO EDITION",
+            )
+        )
         self.pushButton_gamma.setText(_translate("Dialog", "GAMMA"))
         self.label_14.setText(_translate("Dialog", "VISUALIZE DATA"))
         self.pushButton_epsilon.setText(_translate("Dialog", "EPSILON"))
         self.pushButton_about_2.setText(_translate("Dialog", "TUTORIAL "))
         self.label_hide_4.setText(_translate("Dialog", "BIN ANALYTICS"))
         self.pushButton_begin.setText(_translate("Dialog", "BEGIN ANALYSIS"))
-        self.label_hide_5.setText(_translate("Dialog", "BENJAMIN CLEWELL\n"
-"\\\\\\\\\\ \n"
-"DEMO"))
+        self.label_hide_5.setText(
+            _translate("Dialog", "BENJAMIN CLEWELL\n" "\\\\\\\\\\ \n" "DEMO")
+        )

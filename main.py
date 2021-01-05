@@ -16,6 +16,8 @@ from Resources.ui_files import UI_analytics as UI_homescreen
 
 # import frontend_help_ui as UI_help
 # import frontend_about_ui as UI_about
+from Resources.ui_files import UI_tutorial as UI_help
+from Resources.ui_files import UI_about
 
 """
 LIBRARIES: PyQt5 (PySide2)
@@ -42,10 +44,7 @@ Import and reference audio effects that trigger during GUI animations
 and aid in providing feedback for user actions
 """
 
-print(
-    "Initializing Analytics.\n\n\
-    Please be patient while I process your inventory informatics. :)"
-)
+print("Loading data metrics...")
 # provide a message while data is collected, provide feedback to user
 
 
@@ -182,6 +181,24 @@ class HomeScreen(UI_homescreen.Ui_Dialog, QtWidgets.QMainWindow):
                 "white",
             )
         )
+
+        self.pushButton_about_2.clicked.connect(self.op_help)
+        self.pushButton_about.clicked.connect(self.op_about)
+        # connect to the two GUI elements for tutorial/about program
+
+    def op_help(self):
+        """connect to tutorial gui"""
+        sfx.boring_click.play()
+        wci = Help()
+        self.wci = Help()
+        self.wci.show()
+
+    def op_about(self):
+        """connect to about gui"""
+        sfx.boring_click.play()
+        wci2 = About()
+        self.wci2 = About()
+        self.wci2.show()
 
     def show_message(self, title="", message=""):
         """establish parameters for displaying GUI messages to user"""
@@ -377,6 +394,35 @@ class HomeScreen(UI_homescreen.Ui_Dialog, QtWidgets.QMainWindow):
             calc_class.create_graph(graph_barcolor, graph_linecolor)
             # the variables in create_graph are specified during the button call.
             # this is for whatever class instance you're using (alpha, beta, etc)
+
+
+class Help(UI_help.Ui_Dialog, QtWidgets.QMainWindow):
+    """tutorial instructions"""
+
+    def __init__(self):
+
+        super(Help, self).__init__()
+        self.setupUi(self)
+
+
+class About(UI_about.Ui_About, QtWidgets.QMainWindow):
+    """about program"""
+
+    def __init__(self):
+
+        super(About, self).__init__()
+        self.setupUi(self)
+        self.pushButton.clicked.connect(self.media_information)
+
+    def show_message(self, title="", message=""):
+        QtWidgets.QMessageBox.information(None, title, message)
+
+    def media_information(self):
+        self.show_message(
+            "MEDIA INFORMATION",
+            "ANDROID 101: Font Licensed by Benjamin Clewell for Commercial Development.\
+            \n\nAudio by FreeSound.org, InspectorJ (jshaw.co.uk), PMSFX (Licensed)",
+        )
 
 
 if __name__ == "__main__":
