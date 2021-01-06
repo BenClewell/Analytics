@@ -3,9 +3,12 @@
 ![Graph Generation Demonstration](Resources/demonstration_assets/graphgen_preview_fast.gif)
 
 
-#
-[![Demo Video Link](Resources/demonstration_assets/demo_video_link_slow.gif)](https://www.youtube.com/watch?v=ctQW5D8kRcU) 
-#
+<p align="center">
+<a href="https://www.youtube.com/watch?v=ctQW5D8kRcU">
+  <img src="https://github.com/BenClewell/Bin-Analytics/blob/master/Resources/demonstration_assets/demo_video_link_slow.gif">
+</a>
+</p>
+
 This program provides a polished and interactive audiovisual experience for abstracted data points-- providing clarity for the frontend user and giving them the tools to execute  leadership decisions involving categorical inventory bloat, disposal, and consolidation. Conceptualized for official implementation in a qualilty laboratory to manage sample inventory, this public demonstration project has been designed from the ground-up to ensure complete abstraction of all company-sensitive information, technology, and structure.
 
 # Role and Purpose:
